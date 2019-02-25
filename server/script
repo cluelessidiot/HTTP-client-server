@@ -1,0 +1,8 @@
+#!/bin/bash
+cd $HOME/assgn/client
+echo compiling client........
+g++ client.cpp -o c
+cd $HOME/assgn/server
+echo compiling server........
+g++ server.cpp -o s
+
